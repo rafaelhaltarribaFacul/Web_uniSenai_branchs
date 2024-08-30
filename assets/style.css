@@ -1,0 +1,15 @@
+body {
+    background-color: #716372; /* Exemplo de cor de fundo */
+    font-family: Arial, sans-serif; /* Exemplo de fonte */
+}
+
+header, footer {
+    background-color: #9a4949;
+    color: rgb(197, 172, 172);
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
