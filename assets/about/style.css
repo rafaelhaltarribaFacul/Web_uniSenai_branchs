@@ -11,7 +11,10 @@
 
 
 }
-
+body {
+    background-color: var(--cor-quintenaria);
+    color: var(--cor-quaternaria)
+}
 
 .link-logo {
     font-family: var(--fonte-logo);
