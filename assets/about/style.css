@@ -1,23 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
 
 :root {
-    --cor-pricipal: #00398F;
-    --cor-secundaria: #4D7EC7;
-    --cor-terciaria: #99C2FF;
-    --cor-quaternaria: #EBF3FF;
-    --cor-quintenaria: #000001;
+  --cor-pricipal: #00398f;
+  --cor-secundaria: #4d7ec7;
+  --cor-terciaria: #99c2ff;
+  --cor-quaternaria: #ebf3ff;
+  --cor-quintenaria: #000001;
 
-    --fonte-logo: 'New Amsterdam', sans-serif;
-
-
+  --fonte-logo: "New Amsterdam", sans-serif;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
 body {
-    background-color: var(--cor-quintenaria);
-    color: var(--cor-quaternaria)
+  /*background-color: var(--cor-quaternaria);
+  color: var(--cor-quaternaria);*/
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 4% 0% 4%;
+  background-color: var(--cor-pricipal);
 }
 
 .link-logo {
-    font-family: var(--fonte-logo);
-    color: var(--cor-pricipal);
-    text-decoration: none;
+  font-family: var(--fonte-logo);
+  color: var(--cor-quaternaria);
+  font-size: 3rem;
+}
+
+.menu {
+    color: var(--cor-quaternaria);
+}
+
+.rodape {
+    background-color: var(--cor-pricipal);
+    color: var(--cor-quaternaria);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
