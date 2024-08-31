@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+:root {
+    --cor-pricipal: #00398F;
+    --cor-secundaria: #4D7EC7;
+    --cor-terciaria: #99C2FF;
+    --cor-quaternaria: #EBF3FF;
+    --cor-quintenaria: #000001;
+
+    --fonte-logo: 'New Amsterdam', sans-serif;
+
+
+}
+
+
+.link-logo {
+    font-family: var(--fonte-logo);
+    color: var(--cor-pricipal);
+    text-decoration: none;
+}
