@@ -1,50 +1,120 @@
 @import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto+Condensed:wght@600&family=Ubuntu&display=swap");
 
 :root {
-  --cor-pricipal: #00398f;
-  --cor-secundaria: #4d7ec7;
-  --cor-terciaria: #99c2ff;
-  --cor-quaternaria: #ebf3ff;
-  --cor-quintenaria: #000001;
+    --cor-pricipal: #00398f;
+    --cor-secundaria: #4d7ec7;
+    --cor-terciaria: #99c2ff;
+    --cor-quaternaria: #ebf3ff;
+    --cor-quintenaria: #000001;
 
-  --fonte-logo: "New Amsterdam", sans-serif;
+    --fonte-logo: "New Amsterdam", sans-serif;
+    --fonte-principal: "Nunito Sans", sans-serif;
+    --fonte-secundaria: "Roboto Condensed", sans-serif;
+    --fonte-terciaria: "Ubuntu", sans-serif;
+
+    font-size: 16px;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
+    text-decoration: none;
 }
 
 body {
-  /*background-color: var(--cor-quaternaria);
-  color: var(--cor-quaternaria);*/
+    background-color: var(--cor-quaternaria);
+    color: var(--cor-quintenaria);
+    font-family: var(--fonte-principal);
+    margin: 0;
+    padding: 0;
 }
 
 .cabecalho {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1% 4% 0% 4%;
-  background-color: var(--cor-pricipal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.625rem 2.5rem 0 2.5rem;
+    background-color: var(--cor-pricipal);
 }
 
 .link-logo {
-  font-family: var(--fonte-logo);
-  color: var(--cor-quaternaria);
-  font-size: 3rem;
+    font-family: var(--fonte-logo);
+    color: var(--cor-quaternaria);
+    font-size: 3rem;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 1.25rem;
 }
 
 .menu {
     color: var(--cor-quaternaria);
+    font-family: var(--fonte-terciaria);
 }
+
+.principal_about_titulo,
+.principal_about_conteudo {
+    display: flex;
+    padding: 1.25rem 9.375rem;
+    box-sizing: border-box;
+}
+
+.principal_about_titulo {
+    margin-bottom: -15px;
+    color: var(--cor-pricipal);
+    font-family: var(--fonte-secundaria);
+}
+
+.principal_about_conteudo img {
+    width: auto;
+    max-width: 500px;
+    max-height: 100%;
+    object-fit: contain;
+    height: auto;
+    aspect-ratio: 1792 / 1024;
+    margin-left: 3rem;
+    border-radius: 1rem;
+}    
 
 .rodape {
     background-color: var(--cor-pricipal);
     color: var(--cor-quaternaria);
     text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 0.625rem 0;
+    margin-top: 5%;
+}
+
+.icones__links {
+    display: inline;
+}
+
+.rodape__paragrafo {
+    margin-top: -15px;
+}
+
+@media (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    .cabecalho__menu {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .principal_about_conteudo {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+    .principal_about_conteudo img {
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
 }
