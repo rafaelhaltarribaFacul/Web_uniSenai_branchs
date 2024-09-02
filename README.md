@@ -24,7 +24,7 @@ Este é um projeto de uma aplicação web simples desenvolvido para a aula de de
 
 O site está hospedado no Vercel. Você pode acessá-lo através do link abaixo:
 
-[https://web-uni-senai-branchs-olk9.vercel.app/](https://web-uni-senai-branchs-olk9.vercel.app/)
+https://unisofa.vercel.app/
 
 ## Como Rodar o Projeto Localmente
 
