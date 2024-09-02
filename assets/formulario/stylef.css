@@ -21,7 +21,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box ;
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
 
@@ -43,7 +43,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8rem 2rem 0 2.5rem;
+    padding: 0.625rem 2.5rem 0 2.5rem;
     background-color: var(--cor-pricipal);
 }
 
@@ -75,9 +75,9 @@ body {
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     background-color: var(--cor-quaternaria);
-    
+
     padding: 1rem;
 }
 
@@ -139,9 +139,9 @@ body {
     border-radius: 10px;
     box-shadow: 1px 1px 6px #0000001c;
 }
- 
 
-.input-box input:hover  {
+
+.input-box input:hover {
     background-color: #eeeeee75;
 }
 
@@ -149,7 +149,7 @@ body {
     outline: 1px solid #483eff;
 }
 
-.input-box label, 
+.input-box label,
 .gender-title h6 {
     font-size: 0.75rem;
     font-weight: 600;
@@ -221,6 +221,7 @@ body {
 .rodape__paragrafo {
     margin-top: -15px;
 }
+
 @media (max-width: 768px) {
     .cabecalho {
         flex-direction: column;

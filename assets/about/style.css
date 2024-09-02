@@ -54,6 +54,22 @@ body {
     font-family: var(--fonte-terciaria);
 }
 
+.rodape {
+    background-color: var(--cor-pricipal);
+    color: var(--cor-quaternaria);
+    text-align: center;
+    padding: 0.625rem 0;
+    margin-top: 5%;
+}
+
+.icones__links {
+    display: inline;
+}
+
+.rodape__paragrafo {
+    margin-top: -15px;
+}
+
 .principal_about_titulo,
 .principal_about_conteudo {
     display: flex;
@@ -76,22 +92,6 @@ body {
     aspect-ratio: 1792 / 1024;
     margin-left: 3rem;
     border-radius: 1rem;
-}    
-
-.rodape {
-    background-color: var(--cor-pricipal);
-    color: var(--cor-quaternaria);
-    text-align: center;
-    padding: 0.625rem 0;
-    margin-top: 5%;
-}
-
-.icones__links {
-    display: inline;
-}
-
-.rodape__paragrafo {
-    margin-top: -15px;
 }
 
 @media (max-width: 768px) {
