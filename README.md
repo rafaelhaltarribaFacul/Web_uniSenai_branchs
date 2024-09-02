@@ -1,6 +1,6 @@
 # Projeto Web UniSenai Branchs
 
-Este é um projeto de uma aplicação web simples desenvolvido para a aula de desenvolvimento web. O objetivo do projeto é demonstrar o uso de HTML e CSS, junto ao uso do github.
+Este é um projeto de uma aplicação web simples desenvolvido para a aula de desenvolvimento web. O objetivo do projeto é demonstrar o uso de HTML e CSS, junto ao uso do GitHub.
 
 ## Funcionalidades
 
