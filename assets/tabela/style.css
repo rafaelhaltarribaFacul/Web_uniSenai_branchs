@@ -47,7 +47,7 @@ body {
 
 .cabecalho__menu {
     display: flex;
-    gap: 1.25rem;
+    gap: 1.25rem; 
 }
 
 .menu {
